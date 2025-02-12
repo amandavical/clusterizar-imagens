@@ -31,16 +31,7 @@
 
 ---
 
-![infinite](https://github.com/Destiny-Corporation/.github/assets/93869144/e639d368-461d-4276-b2ec-3cefd40bd678)
-
-
-<h3 align="center"> » Connect with us:</h3>
-<div align="center">
-
-<a href="mailto:amandaestudos25@@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
-</div>
-
-### ✦ | About Project 🔥🚀:
+### ✦ | About Project 🚀:
 
 # K-means Image Simplification
 
@@ -63,16 +54,17 @@ K-means Image Simplification is a project that demonstrates how the K-means clus
 ## Setup
 
 1. Clone the repository:
-   bash
- https://github.com/amandavical/clusterizar-imagens.git  
- 
-
-2. Install the required dependencies (if any):  
+```bash
+ https://github.com/amandavical/clusterizar-imagens.git
+```
+2. Install the required dependencies (if any):
+ ```bash 
    This project does not have external dependencies.
-
+ ```
 3. Compile the project using the provided Makefile:
-   bash
+```bash
    make
+```
    
 
 4. The program uses PGM format images. Ensure that the input image is in the correct format.
@@ -90,21 +82,24 @@ Here are the main features and functionality available in this project:
 
 The project follows this directory structure:
 
-bash
-kmeans-image-simplification/
+```bash
+clusterizar-imagens/
 │
 ├── src/
-│   ├── kmeans.c
-│   ├── kmeans.h
-│   ├── pgm.c
-│   ├── pgm.h
-│   ├── utils.c
-│   └── utils.h
+├─── trabalho_final/
+│    ├── kmeans.c
+│    ├── kmeans.h
+│    ├── pgm.c
+│    ├── pgm.h
+│    ├── utils.c
+│    └── utils.h
+│    └── images/
+│    └── cluster-images/
 │
 ├── Makefile
 ├── README.md
-└── input_image.pgm
 
+```
 
 - src/: Contains all source files for the program.
 - kmeans.c and kmeans.h: Implements the K-means algorithm and defines its interface.
@@ -130,4 +125,15 @@ Contributions are welcome! If you find any issues or want to add new features, f
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+![infinite](https://github.com/Destiny-Corporation/.github/assets/93869144/e639d368-461d-4276-b2ec-3cefd40bd678)
+
+
+<h3 align="center"> » Connect with us:</h3>
+<div align="center">
+
+<a href="mailto:amandaestudos25@@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
+</div>
 
