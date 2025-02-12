@@ -93,8 +93,8 @@ int main(int argc, char *argv[])
     }
     printf("Quantidade de imagens: %d\n", contImg); // imprime a quantidade total de imagens processadas
 
-    time = clock() - time;                                                      // calcula o tempo total de execução
-    printf("Tempo de execucao: %lf ms\n", ((double)time) / ((CLOCKS_PER_SEC))); // imprime o tempo de execução em milissegundos
+    time = clock() - time;                                                     // calcula o tempo total de execução
+    printf("Tempo de execucao: %lf s\n", ((double)time) / ((CLOCKS_PER_SEC))); // imprime o tempo de execução em segundos
 
     return 0;
 }
