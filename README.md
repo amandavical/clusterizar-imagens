@@ -119,7 +119,7 @@ kmeans-image-simplification/
 
 2. Clean all "trash"
 
-  - make clean
+   - make clean
  
 3. The program will generate a simplified version of the image with reduced colors.
 
